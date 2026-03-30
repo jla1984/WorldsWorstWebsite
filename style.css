@@ -1,0 +1,152 @@
+.body_index {
+  background-color: chocolate;
+}
+
+.body_page2 {
+  background-color: darkgoldenrod;
+}
+
+.body_page3 {
+  background-color: darkorange;
+}
+
+.index li {
+  display: inline;
+  padding: 5px;
+}
+
+.index li a:hover {
+  background-color: pink;
+}
+
+.two li a {
+  display: block;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.two li a:hover {
+  display: block;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 10px;
+  background: url(https://media1.giphy.com/media/TF1754g0SHMxOgYiuN/200w.gif?cid=6c09b952imtfufefti15m6tosos9fk1omb4pum7ih801jo2f&rid=200w.gif&ct=g)
+    center;
+}
+
+.three li a {
+  display: block;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.three li a:hover {
+  display: block;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 20px;
+  background: url(https://media1.giphy.com/media/TF1754g0SHMxOgYiuN/200w.gif?cid=6c09b952imtfufefti15m6tosos9fk1omb4pum7ih801jo2f&rid=200w.gif&ct=g)
+    center;
+}
+
+.two ul {
+  list-style-type: none;
+}
+
+.three ul {
+  list-style-type: none;
+}
+
+.item_2 {
+  transform: rotateX(180deg);
+}
+
+.item_3 {
+  transform: rotateY(180deg);
+}
+
+.float_one {
+  float: right;
+  width: 50%;
+}
+
+.float_two {
+  float: right;
+}
+
+hr {
+  clear: right;
+  height: 15px;
+  background: url(https://thumbs.dreamstime.com/b/abstract-pattern-squiggly-squiggle-lines-abstract-texture-curvy-intersecting-artistic-graphic-royalty-free-vector-81770491.jpg)
+    repeat-x center;
+  border: none;
+}
+
+.kito {
+  clear: right;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201224/pngtree-japanese-style-sakura-pink-spring-festival-seamless-background-image_512933.jpg);
+  color: navy;
+  font-weight: bolder;
+}
+
+.pagetwo_pictures {
+  width: 50%;
+}
+
+b {
+  color: turquoise;
+  font-size: 20px;
+}
+
+.bluedanube {
+  position: relative;
+  left: 25px;
+}
+
+.dawntodusk {
+  position: relative;
+  left: 125px;
+}
+
+.dropmore {
+  position: relative;
+  left: 225px;
+}
+
+.buttscoot {
+  position: absolute;
+  right: 25px;
+}
+
+.slide {
+  position: absolute;
+  right: 25px;
+  top: 600px;
+}
+
+.hallie {
+  background-image: url(https://t3.ftcdn.net/jpg/05/00/84/56/360_F_500845636_d0udGTDgJSUJhJ48HVmnKO5xTZCcO5Gn.jpg);
+  color: white;
+}
+
+.hallie2 {
+  background-image: url(https://t3.ftcdn.net/jpg/05/00/84/56/360_F_500845636_d0udGTDgJSUJhJ48HVmnKO5xTZCcO5Gn.jpg);
+  color: white;
+}
+
+.top10 {
+  list-style-type: none;
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-groovy-psychedelic-background_23-2149088958.jpg?w=2000);
+  width: 50%;
+  color: white;
+  font-weight: bolder;
+}
+
+.top10 li::before {
+  content: "\2660";
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+}
